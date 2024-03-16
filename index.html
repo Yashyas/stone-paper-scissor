@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Stone Paper Scissor</title>
+</head>
+<body>
+
+    <!-- header -->
+    <div class="header">
+        <p>Rock Paper Scissor</p>
+    </div>
+    <!-- middle content part -->
+    <div class="content">
+        <!-- user input side pannel -->
+        <div class="player">
+            <p>User</p>
+            <div class="choice" id="playerChoice">
+                <img id="rock" src="./images/rock.png">
+                <img id="paper" src="./images/paper.png">
+                <img id="scissor" src="./images/scissor.png">
+            </div>
+        </div>
+
+        <!-- Leaderboard pannel -->
+        <div class="decision">
+            <div><p>User VS Computer</p></div>
+
+            <!-- <div class="name">
+                <p>User</p>
+                <p>Computer</p>
+            </div> -->
+                
+            <div>
+                <p id="userChoice">Player:</p>
+                <p id="computerChoice">Computer:</p>
+            </div>
+
+            <div>
+                <p id="result">Decision(win/loss)</p>
+            </div>
+
+            <div>
+                <button>Start</button>
+            </div>
+        </div>
+
+        <!-- Computer choice side pannel -->
+        <div class="computer">
+            <p>Computer</p>
+            <div class="choice" id="compChoice">
+                <img id="compRock" src="./images/rock.png">
+                <img id="compPaper" src="./images/paper.png">
+                <img id="compScissor" src="./images/scissor.png">
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <p>Rock Paper Scissor Game</p>
+    </div>
+    
+</body>
+</html>
